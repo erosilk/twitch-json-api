@@ -2,7 +2,7 @@
 ----------------
 This app was made for FreeCodeCamp.  
 Much thanks to [FreeCodeCampBA](https://freecodecampba.org/) for the support!  
-[**You can try it out at codepen.io too!**](http://codepen.io/erosilk/full/bgOpzZ/) 
+[**Try it out!**](https://erosilk.github.io/twitch-json-api/) 
 
 
 Made with the Twitch **API**!
