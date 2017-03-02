@@ -3,11 +3,11 @@ $(document).ready(function(){
     var channelArray = ['streamerhouse','monstercat','coscuuu','freecodecamp','eulcs1']
 
     for (var i = 0; i < channelArray.length; i++) {
-        getData(channelArray[i], i+1)
+        getData(channelArray[i])
     }
 })
 
-function getData(channel, val){
+function getData(channel){
 
     $.ajax({
         url: 'https://wind-bow.gomix.me/twitch-api/streams/' + channel,
