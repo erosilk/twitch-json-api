@@ -12,7 +12,7 @@ function getData(channel, val){
     $.ajax({
         url: 'https://wind-bow.gomix.me/twitch-api/streams/' + channel,
         success: function(data){
-            var stream = data.stream;
+            var stream = data.stream
             if (stream == null){
                 $("#title" + val).text(channel)
                 $("#status" + val).html('<strong>OFFLINE</strong>')
