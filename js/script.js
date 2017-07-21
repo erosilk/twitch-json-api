@@ -10,7 +10,7 @@ $(document).ready(function(){
 function getData(channel){
 
     $.ajax({
-        url: 'https://wind-bow.gomix.me/twitch-api/streams/' + channel,
+        url: 'https://crossorig.in/https://wind-bow.gomix.me/twitch-api/streams/' + channel,
         success: function(data){
             var stream = data.stream
             if (stream == null){
